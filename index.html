@@ -3,39 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rofiq Sugara | IT Log & Journal</title>
+    <title>Rofiq Sugara | Infrastructure & Security Log</title>
     <style>
-        body { font-family: 'Courier New', Courier, monospace; background: #0d1117; color: #c9d1d9; padding: 5%; line-height: 1.6; }
-        .container { max-width: 800px; margin: auto; }
-        h1 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
-        .tagline { color: #8b949e; font-style: italic; }
-        .section { margin-top: 30px; padding: 20px; border: 1px solid #30363d; border-radius: 6px; }
-        .highlight { color: #7ee787; }
-        ul { list-style-type: "→ "; }
-        li { margin-bottom: 10px; }
+        body { font-family: 'Consolas', 'Monaco', monospace; background: #010409; color: #e6edf3; padding: 5%; line-height: 1.5; }
+        .container { max-width: 850px; margin: auto; }
+        h1 { color: #2f81f7; font-size: 2.5em; margin-bottom: 5px; }
+        .subtitle { color: #7d8590; font-size: 1.1em; margin-bottom: 30px; border-bottom: 1px solid #21262d; padding-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .card { background: #0d1117; border: 1px solid #30363d; padding: 20px; border-radius: 6px; }
+        .card h3 { color: #7ee787; margin-top: 0; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+        .tech-tag { display: inline-block; background: #161b22; border: 1px solid #30363d; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; margin: 3px; color: #a5d6ff; }
+        ul { padding-left: 18px; color: #8b949e; }
+        li { margin-bottom: 8px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Rofiq Sugara</h1>
-        <p class="tagline">IT Infrastructure @ PT. Auto Aska Indonesia | Self-taught Full-stack Developer</p>
-        
-        <div class="section">
-            <h3><span class="highlight">#</span> Current Focus</h3>
-            <ul>
-                <li>Managing Enterprise Infrastructure & Network Security.</li>
-                <li>Developing internal apps with <span class="highlight">MERN Stack</span> (MongoDB, Express, React, Node.js).</li>
-                <li>Exploring Cyber Security & Digital Monitoring.</li>
-            </ul>
+        <h1>ROFIQ SUGARA</h1>
+        <div class="subtitle">IT Infrastructure Engineer & Network Security Enthusiast</div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>[0] Infrastructure & Systems</h3>
+                <ul>
+                    <li>HPE ProLiant Gen10 Server Management</li>
+                    <li>Synology NAS (RAID 10 Configuration & Maintenance)</li>
+                    <li>Active Directory & Enterprise Documentation</li>
+                    <li>High-Availability (HA) Cluster Implementation</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>[1] Network & Security</h3>
+                <ul>
+                    <li>FortiGate Firewall Policy & Licensing</li>
+                    <li>VLAN Segmentation & Network Monitoring</li>
+                    <li>Zabbix & Kaspersky Cybermap Integration</li>
+                    <li>Wireless Infrastructure Optimization</li>
+                </ul>
+            </div>
+
+            <div class="card" style="grid-column: span 2;">
+                <h3>[2] Development for Ops (MERN)</h3>
+                <p>Building specialized internal tools to automate infrastructure workflows:</p>
+                <div class="tech-tag">MongoDB</div>
+                <div class="tech-tag">Express.js</div>
+                <div class="tech-tag">React.js</div>
+                <div class="tech-tag">Node.js</div>
+                <div class="tech-tag">REST API</div>
+                <div class="tech-tag">Git/GitHub</div>
+            </div>
         </div>
 
-        <div class="section">
-            <h3><span class="highlight">#</span> Creative Outlets</h3>
-            <p>Selain ngurus server, saya juga suka bikin lagu dan eksperimen resep masakan (lagi belajar bikin sup daging yang mantap!).</p>
-        </div>
-
-        <p style="text-align: center; margin-top: 50px; font-size: 0.8em; color: #8b949e;">
-            &copy; 2026 - Build with Coffee and AI.
+        <p style="text-align: center; margin-top: 40px; color: #484f58; font-size: 0.8em;">
+            &gt;_ SYSTEM_STATUS: OPERATIONAL | VERSION: 2.0.26
         </p>
     </div>
 </body>
